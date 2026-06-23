@@ -26,6 +26,10 @@ Karson Chrispens, Marcus Collins, Doris Mai, Stephanie A. Wankowicz,
 James S. Fraser, Henry van den Bedem. *The Stacks*, 2026.  
 [Read the article](https://doi.org/10.82153/jkxj-tw08){: .btn .btn--primary}
 
+**Supplying a User-Defined Bulk Solvent Map for Refinement**  
+James Holton, Stephanie A. Wankowicz. *The Stacks*, 2026.  
+[Read the article](https://doi.org/10.82153/2me0-hd96){: .btn .btn--primary}
+
 ## Our Open Science Resources
 
 **The DiffUSE Logbook** -- A real-time research notebook 
