@@ -21,6 +21,9 @@ layout: default            # keep whatever your other pages use
           <div class="info">
             <span class="name">{{ person.name }}</span><br>
             <span class="title">{{ person.title }}</span>
+            {%- if person.email -%}
+            <br><a href="mailto:{{ person.email }}" class="btn btn--small btn--diffuse">Email {{ person.name | split: " " | first }}</a>
+            {%- endif -%}
           </div>
         </div>
       {%- endif -%}
@@ -38,6 +41,9 @@ layout: default            # keep whatever your other pages use
           <div class="info">
             <span class="name">{{ person.name }}</span><br>
             <span class="title">{{ person.title }}</span>
+            {%- if person.email -%}
+            <br><a href="mailto:{{ person.email }}" class="btn btn--small btn--diffuse">Email {{ person.name | split: " " | first }}</a>
+            {%- endif -%}
           </div>
         </div>
       {%- endif -%}

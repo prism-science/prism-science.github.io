@@ -159,6 +159,18 @@ img.avatar {
   }
 }
 
+/* ── Brand email/contact button ── */
+.btn--diffuse {
+  background-color: #e35821;
+  color: #fff;
+}
+.btn--diffuse:hover {
+  background-color: #c94a1a;
+  color: #fff;
+}
+/* small top gap when used inside a member card */
+.member-card .btn { margin-top: 0.4rem; }
+
 
 /* ── Remove white gap between nav and hero ── */
 .initial-content {

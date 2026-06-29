@@ -46,6 +46,12 @@ Static structures have plateaued. Most of our structural biology models only enc
 
 We are a distributed team experimenting with new ways to fund multiple parts of the pipeline simultaneously, enabling team members to design and coordinate across dimensions. We believe in a more holistic approach to rethinking what changes are possible and scalable.
 
+Have a question about the project?
+
+[Email the Program Director](mailto:stephanie.wankowicz@astera.org){: .btn .btn--diffuse}
+
+[Email the Project Manager](mailto:andy.burnim@astera.org){: .btn .btn--diffuse}
+
 ## Open Science
 
 We envision a future in which all research outputs are shared rapidly and openly. To support this future, the DiffUSE Project is fully open, in line with [Astera's Open Science Policy](https://zenodo.org/records/17795285). We aim to rapidly share our data and results through multiple formats. 
