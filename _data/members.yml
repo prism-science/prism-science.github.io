@@ -6,11 +6,12 @@
   tier: leadership
 
 - name: Stephanie Wankowicz, Ph.D.
-  title: Scientific Program Director - Radial, Assistant Adjunct Professor - Vanderbilt University 
+  title: Scientific Program Director - Radial, Assistant Adjunct Professor - Vanderbilt University
   photo: /assets/images/members/Wankowicz.jpg
   org:
     - Radial
   tier: leadership
+  email: stephanie.wankowicz@astera.org
 
 - name: Seemay Chou, Ph.D.
   title: President - Astera Institute
@@ -53,6 +54,7 @@
   org:
     - Radial
   tier: team
+  email: andy.burnim@astera.org
 
 - name: James Holton, Ph.D.
   title: Beamline Scientist - Lawrence Berkeley National Lab, Full Adjunct Professor - UCSF
