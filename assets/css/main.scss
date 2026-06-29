@@ -63,6 +63,7 @@ body .greedy-nav .hidden-links::before {
 }
 
 .greedy-nav a {
+  font-size: 0.8rem;
   transition: transform 0.2s ease, font-weight 0.2s ease, color 0.2s ease;
 }
 
@@ -296,6 +297,52 @@ body .masthead .greedy-nav {
   .video-hero-overlap {
     margin-top: -4rem;
     max-width: 95%;
+  }
+}
+
+/* ── Home action buttons (above video) ── */
+.home-actions {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.home-actions a {
+  flex: 1 1 180px;
+  max-width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: #e35821;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.home-actions a:hover {
+  background: #c94a1a;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.home-actions svg {
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .home-actions a {
+    flex-basis: 45%;
+    max-width: none;
   }
 }
 
