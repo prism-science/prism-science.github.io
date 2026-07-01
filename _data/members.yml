@@ -98,3 +98,10 @@
   org:
     - Los Alamos National Laboratory
   tier: team
+
+- name: Feng Yu, Ph.D.
+  title: Scientist - Radial
+  photo: /assets/images/members/yu_feng.png
+  org:
+    - Radial
+  tier: team
