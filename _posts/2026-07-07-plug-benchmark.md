@@ -10,7 +10,7 @@ tags:
   - data leakage
   - protein function
 gallery1:
-    - url: /assets/images/posts/plug.png
+    - url: /assets/images/posts/2026-07-07/plug.png
       image_path: /assets/images/posts/2026-07-07/plug.png
       title: "PLUG figure"
 excerpt: "Leakage-free Training to Predict Protein Function"
