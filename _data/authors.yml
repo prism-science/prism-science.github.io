@@ -104,3 +104,10 @@ dorismai:
   avatar:   /assets/images/members/mai.png
   member:   true
   email:    doris.mai@astera.org
+
+alanclayrichard:
+  name:     A. Clay Richard
+  bio:      Scientist
+  avatar:   /assets/images/members/richard.jpg
+  member:   true
+  email:    alan.richard@astera.org
