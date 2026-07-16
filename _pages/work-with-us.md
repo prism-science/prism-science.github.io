@@ -86,6 +86,16 @@ permalink: /work-with-us/
     </div>
 
     <div class="job-card">
+      <h3><a href="https://jobs.ashbyhq.com/astera/7c45ab2e-f341-4fef-a3f3-659abe852d71" target="_blank" rel="noopener">Scientist - Computational Biophysics</a></h3>
+      <p>Astera Institute</p>
+    </div>
+
+    <div class="job-card">
+      <h3><a href="https://jobs.ashbyhq.com/astera/cded582c-8965-4795-968c-c632a5112e82" target="_blank" rel="noopener">Research Assistant - Structural Bioinformatics</a></h3>
+      <p>Astera Institute</p>
+    </div>
+
+    <div class="job-card">
       <h3><a href="https://jobs.ashbyhq.com/astera/bb7496f8-3342-4d8f-a5c6-e891fefa3b0e" target="_blank" rel="noopener">General DiffUSE Job Application</a></h3>
       <p>Astera Institute</p>
     </div>
