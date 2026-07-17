@@ -111,3 +111,9 @@ alanclayrichard:
   avatar:   /assets/images/members/richard.jpg
   member:   true
   email:    alan.richard@astera.org
+
+lyubimov-art:
+  name:     Art Lyubimov
+  bio:      Staff Scientist - Fraser Lab
+  avatar:   /assets/images/members/lyubimov.png
+  member:   false
