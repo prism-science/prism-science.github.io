@@ -1,7 +1,7 @@
 ---
 title:  Taylor's Diffuse Rotation
 layout: single
-author: twomack
+author: taylor-womack
 excerpt: What Taylor got done during his rotation.
 categories:
   - posts
