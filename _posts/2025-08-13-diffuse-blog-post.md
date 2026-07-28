@@ -18,6 +18,3 @@ We just launched The Diffuse Initiative, a new project to experimentally study p
 As a scientist and funder, this is near and dear to my heart. I wrote up some of our thinking here: [https://seemay.substack.com/p/from-systems-operators-to-systems](https://seemay.substack.com/p/from-systems-operators-to-systems)
 
 ![Protein in motion](/assets/images/posts/20250813_seemay_substack.png)
-
-
-{% include github-comments.html %}

@@ -26,5 +26,3 @@ By shipping both frozen proteins and a crystallization plate, we aim to determin
 The next steps involve the Ando Lab assessing the quality of the shipped crystals to determine whether crystallization plates are a feasible option for sample transport. The Ando Lab will also use the shipped protein to grow new crystals. While we anticipate crystallization to be largely reproducible, some optimization may be necessary to produce crystals of sufficient size for diffuse scattering experiments, especially if plate formats and drop sizes differ from our established methods.
 
 The Fraser Lab remains available to provide troubleshooting support and to ship additional protein as needed. Once we establish confidence in our shipping methods and crystal growth reproducibility, we will also prepare shipments of ligands to conduct soaking experiments.
-
-{% include github-comments.html %}

@@ -49,6 +49,3 @@ Along the way we encountered a common pitfall in making these kinds of compariso
 The next step is to compare both of these simulations with data recently collected at CHESS (see [logbook](https://diffuse.science/logbook/beamtime/20251105-chess/)), in one of a series of diffUSE beam times that are expected to yield a large number of datasets. These runs already have revealed that diffuse data are [reproducible between CHESS and ALS beamlines]({% post_url 2026-02-02-allhands %}). Data from Mac1 +/- ADPr are now in the processing pipeline; we're eager to see how Mac1 diffuse scattering changes upon ligand binding, and whether MD simulations can help explain what we see.
 
 ---
-
-
-{% include github-comments.html %}
