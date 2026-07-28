@@ -124,3 +124,10 @@ taylor-womack:
   avatar:   /assets/images/members/womack.jpg
   member:   false
   email: Taylor.Womack@ucsf.edu
+
+kushner-artem:
+  name:     Artem Kushner
+  bio:      Scientist
+  avatar:   /assets/images/members/Kushner.png
+  member:   false
+  email:    rtkushner@gmail.com
