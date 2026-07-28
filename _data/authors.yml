@@ -117,3 +117,17 @@ lyubimov-art:
   bio:      Staff Scientist - Fraser Lab
   avatar:   /assets/images/members/lyubimov.png
   member:   false
+
+taylor-womack:
+  name:     Taylor Womack
+  bio:      Graduate Student - Fraser Lab
+  avatar:   /assets/images/members/womack.jpg
+  member:   false
+  email: Taylor.Womack@ucsf.edu
+
+kushner-artem:
+  name:     Artem Kushner
+  bio:      Scientist
+  avatar:   /assets/images/members/Kushner.png
+  member:   false
+  email:    rtkushner@gmail.com
