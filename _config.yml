@@ -22,6 +22,10 @@ github_username: diff-use
 minimal_mistakes_skin: default
 search: true
 repository: diff-use/diff-use.github.io
+# Pin these explicitly. Setting `repository` activates jekyll-github-metadata,
+# which otherwise infers a wrong baseurl (/pages/diff-use) and breaks all links.
+url: "https://diffuse.science"
+baseurl: ""
 
 # Comments (GitHub Discussions via giscus)
 comments:
