@@ -21,6 +21,26 @@ twitter_username: username
 github_username: diff-use
 minimal_mistakes_skin: default
 search: true
+repository: diff-use/diff-use.github.io
+# Pin these explicitly. Setting `repository` activates jekyll-github-metadata,
+# which otherwise infers a wrong baseurl (/pages/diff-use) and breaks all links.
+url: "https://diffuse.science"
+baseurl: ""
+
+# Comments (GitHub Discussions via giscus)
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: "R_kgDOPO07gg"
+    category_name: "General"
+    category_id: "DIC_kwDOPO07gs4CtV5I"
+    discussion_term: "title"
+    reactions_enabled: "1"
+    emit_metadata: "0"
+    input_position: "bottom"
+    theme: "light"
+    strict: "0"
+    lang: "en"
 
 # Build settings
 markdown: kramdown
@@ -84,7 +104,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
   # _pages

@@ -41,6 +41,3 @@ Thinking about (2), I contacted James Fraser to chat about what to do for the ne
 What will the MD simulation of diffuse scattering from crystals of Mac1 in complex with ADPr look like? Probably a lot like the ones we've done already, with some small changes. We're planning to analyze the differences and find out what happens to the dynamics when different ligands bind. But we don't really know yet what we'll see. These moments of suspense are very common in science, but they're absent from the stories we usually tell in the literature. The open science model we're using on the diffUSE project enables us to document these periods of uncertainty as a part of the public narrative of the project. It feels kind of liberating.
 
 ---
-
-
-{% include github-comments.html %}

@@ -42,5 +42,3 @@ The simulated electron density in the center panel shows the average picture. It
 *Methods*
 
 The [lunus](http://github.com.lanl/lunus) repository has some examples of how to [prepare](https://github.com/lanl/lunus/tree/master/examples/tutorials/crystalline_MD_prep) crystalline MD simulations and use them to analyze [Bragg](https://github.com/lanl/lunus/tree/master/examples/tutorials/crystalline_MD_analysis_bragg) and [diffuse](https://github.com/lanl/lunus/tree/master/examples/tutorials/crystalline_MD_analysis_diffuse) data. 
-
-{% include github-comments.html %}

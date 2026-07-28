@@ -11,5 +11,3 @@ comments: true
 ---
 
 Our new website is hosted by Github Pages, and its source code can be viewed [here](https://github.com/diff-use/diff-use.github.io/).
-
-{% include github-comments.html %}
