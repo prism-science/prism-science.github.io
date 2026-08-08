@@ -11,8 +11,8 @@ tags:
   - molecular modeling
   - macos
 gallery1:
-    - url: /assets/images/posts/2026-08-07/altloc_coloring_bandicoot_3NYD.png
-      image_path: /assets/images/posts/2026-08-07/altloc_coloring_bandicoot_3NYD.png
+    - url: /assets/images/posts/2026_08_07/altloc_coloring_bandicoot_3NYD.png
+      image_path: /assets/images/posts/2026_08_07/altloc_coloring_bandicoot_3NYD.png
       title: "Model colored by heterogeneity displayed in Bandicoot v0.1.4.12"
 excerpt: "In preparation for hierarchical hetereogeneity encoding, BANDICOOT has a new, more intuitive display mode for alternate conformations."
 comments: true
