@@ -30,6 +30,11 @@ James S. Fraser, Henry van den Bedem. *The Stacks*, 2026.
 James Holton, Stephanie A. Wankowicz. *The Stacks*, 2026.  
 [Read the article](https://doi.org/10.82153/2me0-hd96){: .btn .btn--primary}
 
+**Recovering Conformational Heterogeneity from the Protein Data 
+Bank at Scale**  
+Stephanie A. Wankowicz. *The Stacks*, 2026.  
+[Read the article](https://doi.org/10.82153/pff0-ck46){: .btn .btn--primary}
+
 ## Our Open Science Resources
 
 **The DiffUSE Logbook** -- A real-time research notebook 
