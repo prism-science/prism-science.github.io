@@ -131,3 +131,9 @@ kushner-artem:
   avatar:   /assets/images/members/Kushner.png
   member:   false
   email:    rtkushner@gmail.com
+
+thornton-stephen:
+  name:     Stephen Thornton
+  bio:      Postdoc at Cornell
+  avatar:   /assets/images/members/Thornton.jpg
+  member:   true
