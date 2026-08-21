@@ -30,9 +30,9 @@ At any temperature, the most populated phonon modes are the lowest-frequency one
 
 As a full forward model of the phononic contribution to diffuse scattering, the utility of GOODVIBES is many-fold and leads to several open questions:
 
-If we model the long-wavelength contribution to the diffuse signal very well, can we subtract it out to extract biologically relevant motions that contribute to the diffuse signal?
-After the halos are fit, can we understand the more complicated, structured diffuse signal between the Bragg peaks as also coming partially from phonons?
-Can more sophisticated modeling of the internal motions of the protein be developed so that harmonic modes related to biological function can be fit to the experimental data?
+1. If we model the long-wavelength contribution to the diffuse signal very well, can we subtract it out to extract biologically relevant motions that contribute to the diffuse signal?
+2. After the halos are fit, can we understand the more complicated, structured diffuse signal between the Bragg peaks as also coming partially from phonons?
+3. Can more sophisticated modeling of the internal motions of the protein be developed so that harmonic modes related to biological function can be fit to the experimental data?
 
 ## Where we are now
 
@@ -48,10 +48,10 @@ After refinement, the halos are well-fit, and the fully refined harmonic model c
 
 We have a combination of short- and long-term goals for the future development of GOODVIBES.
 
-Demonstrate the full refinement pipeline for the Mac1 protein crystal in the P43 space group (PDB 7tx0[^5]), modeling the two independent chains in the asymmetric unit as separate rigid bodies.
-Incorporate structure refinement into the pipeline - can information contained within the diffuse signal be used to get a better average structure?
-Rethink the parameterization of the rigid body interactions - are springs between residues found with a neighbor search an optimal choice for this refinement problem?
-Incorporate flexibility in the rigid body decomposition, perhaps integrating it with other TLS refinement software. This will allow further exploration of how model parameterization affects the portions of the diffuse signal not included in the fit to the experimental diffuse signal.
+1. Demonstrate the full refinement pipeline for the Mac1 protein crystal in the P43 space group (PDB 7tx0[^5]), modeling the two independent chains in the asymmetric unit as separate rigid bodies.
+2. Incorporate structure refinement into the pipeline - can information contained within the diffuse signal be used to get a better average structure?
+3. Rethink the parameterization of the rigid body interactions - are springs between residues found with a neighbor search an optimal choice for this refinement problem?
+4. Incorporate flexibility in the rigid body decomposition, perhaps integrating it with other TLS refinement software. This will allow further exploration of how model parameterization affects the portions of the diffuse signal not included in the fit to the experimental diffuse signal.
 
 As we continue to develop GOODVIBES, we will be thinking more deeply about how to integrate information gleaned from a fit to this model which assumes phonons in regular crystals generate the diffuse signal with other models that include contributions that come from motion that cannot be understood as harmonic. Non-harmonic contributions to the signal include conformational heterogeneity (modeled with sampleworks[^8]) and highly disordered protein and solvent (found through molecular dynamics simulations (e.g. Wall et al. 2019[^9])).
 
