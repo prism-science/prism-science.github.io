@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Modeling the contributions of thermal vibrations to diffuse signal with GOODVIBES'
+title: 'Modeling the contribution of harmonic lattice vibrations to the diffuse signal with GOODVIBES'
 author: thornton-stephen
 date: 2026-08-21
 classes: wide
