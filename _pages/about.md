@@ -58,7 +58,7 @@ We envision a future in which all research outputs are shared rapidly and openly
 
 ### How we are sharing our science
 
-- [The DiffUSE GitHub](https://github.com/diff-use): Open code repository for all DiffUSE Project. 
+- [The DiffUSE GitHub](https://github.com/prism-science): Open code repository for all DiffUSE Project. 
 
 - [Posts from our Scientists](https://diffuse.science/posts/): Read direct dispatches from our distributed DiffUSE team.
 

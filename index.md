@@ -43,7 +43,7 @@ feature_row_philosophy:
 
 <div class="home-actions">
 
-  <a href="https://github.com/diff-use" target="_blank" rel="noopener">
+  <a href="https://github.com/prism-science" target="_blank" rel="noopener">
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
     Code
   </a>

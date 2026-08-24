@@ -10,4 +10,4 @@ tags:
 comments: true
 ---
 
-Our new website is hosted by Github Pages, and its source code can be viewed [here](https://github.com/diff-use/diff-use.github.io/).
+Our new website is hosted by Github Pages, and its source code can be viewed [here](https://github.com/prism-science/prism-science.github.io/).
