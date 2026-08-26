@@ -27,7 +27,7 @@ To date, we’ve implemented:
 * Wrappers for [Boltz-1 and \-2](https://github.com/jwohlwend/boltz); [Protenix](https://github.com/bytedance/Protenix); and [RosettaFold3](https://github.com/RosettaCommons/foundry).   
 * Guidance based on real-space electron density maps.
 
-We will continue to expand the guidance methods, structure predictors, and the kinds of experimental data used for guidance, and we welcome contributions from this community. You can use Sampleworks, follow our progress, and contribute [here](https://github.com/diff-use/sampleworks)\!
+We will continue to expand the guidance methods, structure predictors, and the kinds of experimental data used for guidance, and we welcome contributions from this community. You can use Sampleworks, follow our progress, and contribute [here](https://github.com/prism-science/sampleworks)\!
 
 ## **Where we're at**
 

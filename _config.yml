@@ -18,12 +18,12 @@ title: The DiffUSE Project
 email: diffuse@astera.org
 description: The DiffUSE Project
 twitter_username: username
-github_username: diff-use
+github_username: prism-science
 minimal_mistakes_skin: default
 search: true
-repository: diff-use/diff-use.github.io
+repository: prism-science/prism-science.github.io
 # Pin these explicitly. Setting `repository` activates jekyll-github-metadata,
-# which otherwise infers a wrong baseurl (/pages/diff-use) and breaks all links.
+# which otherwise infers a wrong baseurl (/pages/prism-science) and breaks all links.
 url: "https://diffuse.science"
 baseurl: ""
 
@@ -81,7 +81,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/diff-use/"
+      url: "https://github.com/prism-science/"
     - label: "X"
       icon: "fab fa-fw fa-x"
       url: "https://x.com/diffUSEproject"

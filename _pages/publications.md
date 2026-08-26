@@ -50,4 +50,4 @@ methods, discoveries, and reflections on working openly.
 analysis pipelines behind our science. We push our work as it 
 takes shape so the community can read, fork, and reuse it 
 immediately, not only at the end of a project.  
-[Browse the GitHub](https://github.com/diff-use){: .btn .btn--primary}
+[Browse the GitHub](https://github.com/prism-science){: .btn .btn--primary}

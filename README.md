@@ -1,4 +1,4 @@
-diff-use.github.io
+prism-science.github.io
 ==================
 
 Getting started
@@ -11,11 +11,11 @@ Getting started
     ```
  1. Clone this repository
     ```
-    git clone git@github.com:diff-use/diff-use.github.io.git
+    git clone git@github.com:prism-science/prism-science.github.io.git
     ```
  1. Change into your new directory
     ```
-    cd diff-use.github.io
+    cd prism-science.github.io
     ```
  1. Build the site and make it available on a local server
     ```
