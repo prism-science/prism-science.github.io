@@ -35,6 +35,10 @@ Bank at Scale**
 Stephanie A. Wankowicz. *The Stacks*, 2026.  
 [Read the article](https://doi.org/10.82153/pff0-ck46){: .btn .btn--primary}
 
+**WaterFlow: Prediction of Ordered Water Molecule Positions on Protein Structures**  
+Vratin Srivastava, Huanghao Mai, Marcus Collins, James M Holton, Michael Wall, Stephanie A Wankowicz. *BioRxiv*, 2026.  
+[Read the article](https://www.biorxiv.org/content/10.64898/2026.08.26.747373v1){: .btn .btn--primary}
+
 ## Our Open Science Resources
 
 **The DiffUSE Logbook** -- A real-time research notebook 
