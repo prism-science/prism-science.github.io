@@ -34,12 +34,12 @@
     - UCSF
   tier: pi
 
-# - name: Joey Davis, Ph.D.
-#   title: Associate Professor - MIT, Biology
-#   photo: /assets/images/members/davis.png
-#   org:
-#     - MIT
-#   tier: pi
+- name: Joey Davis, Ph.D.
+  title: Associate Professor - MIT, Biology
+  photo: /assets/images/members/davis.png
+  org:
+    - MIT
+  tier: pi
 
 - name: Marcus Collins, Ph.D.
   title: Senior Machine Learning Scientist - Radial
