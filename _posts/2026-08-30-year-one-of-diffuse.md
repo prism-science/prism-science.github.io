@@ -21,19 +21,20 @@ A year in, the individual parts of the project are now beginning to converge. We
 ### By the Numbers
 
 #### 4 Scholarly Pubs with 8 different contributors
-[sampleworks: A Modular Platform for Experimentally Guided Biomolecular Ensemble Generation](https://thestacks.org/publications/sampleworks-release)
-[Supplying a User-Defined Bulk Solvent Map for Refinement](https://thestacks.org/publications/method-bulksolvent)
-[Recovering Conformational Heterogeneity from the Protein Data Bank at Scale](https://thestacks.org/publications/qfit-at-scale)
-[WaterFlow: Prediction of Ordered Water Molecule Positions on Protein Structures](https://www.biorxiv.org/content/10.64898/2026.08.26.747373v1)
 
-#### [16 Logbooks with 18 different contributors](https://diffuse.science/logbook/)
+- [sampleworks: A Modular Platform for Experimentally Guided Biomolecular Ensemble Generation](https://thestacks.org/publications/sampleworks-release)
+- [Supplying a User-Defined Bulk Solvent Map for Refinement](https://thestacks.org/publications/method-bulksolvent)
+- [Recovering Conformational Heterogeneity from the Protein Data Bank at Scale](https://thestacks.org/publications/qfit-at-scale)
+- [WaterFlow: Prediction of Ordered Water Molecule Positions on Protein Structures](https://www.biorxiv.org/content/10.64898/2026.08.26.747373v1)
+
+#### [16 Logbooks](https://diffuse.science/logbook/) with 18 different contributors
 
 #### 5 Key Software Methods with 13 different contributors
-[Mdx2: an open-source toolkit for diffuse data processing written in Python](https://github.com/prism-science/mdx2)
-[sampleworks: a Python framework for integrating generative biomolecular structure models with experimental data](https://github.com/prism-science/sampleworks)
-[WaterFlow: a Deep Learning model that predicts the positions of ordered water molecules conditioned on a protein structure](https://github.com/prism-science/WaterFlow)
-[Goodvibes (General Optimization Of Diffuse halos from VIBrational Elastic network Simulations): a software package that produces a full forward model of the phononic contribution to the diffuse signal](https://github.com/prism-science/goodvibes)
-[A Python library and command-line tool for reading, writing, and modifying PDBx/mmCIF protein structure files with support for hierarchical heterogeneity extensions](https://github.com/prism-science/pdbx_hierarchy)
 
+- [Mdx2: an open-source toolkit for diffuse data processing written in Python](https://github.com/prism-science/mdx2)
+- [sampleworks: a Python framework for integrating generative biomolecular structure models with experimental data](https://github.com/prism-science/sampleworks)
+- [WaterFlow: a Deep Learning model that predicts the positions of ordered water molecules conditioned on a protein structure](https://github.com/prism-science/WaterFlow)
+- [Goodvibes (General Optimization Of Diffuse halos from VIBrational Elastic network Simulations): a software package that produces a full forward model of the phononic contribution to the diffuse signal](https://github.com/prism-science/goodvibes)
+- [A Python library and command-line tool for reading, writing, and modifying PDBx/mmCIF protein structure files with support for hierarchical heterogeneity extensions](https://github.com/prism-science/pdbx_hierarchy)
 
-[38 Blog Posts written by 14 different authors!](https://diffuse.science/posts/)
+#### [38 Blog Posts written by 14 different authors!](https://diffuse.science/posts/)
