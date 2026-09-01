@@ -137,3 +137,9 @@ thornton-stephen:
   bio:      Postdoc at Cornell
   avatar:   /assets/images/members/Thornton.jpg
   member:   true
+
+srivastava-vratin:
+  name:     Vratin Srivastava
+  bio:      Former Scientist
+  avatar:   /assets/images/diffuse_logo.jpg
+  member:   false
