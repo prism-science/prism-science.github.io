@@ -25,7 +25,7 @@ Over the past year, we have made significant progress in every area of the proje
 A year in, the different areas of the project are now beginning to converge. We are beginning to integrate diffuse scattering data into our modeling software, and consider how to encode different types of heterogeneity in mmCIF files. As the different areas of the project converge, we are just starting to show the power of tackling the entire pipeline at once: that the sum can be greater than the individual parts. 
 
 
-# By the Numbers
+## By the Numbers
 
 ### 4 Scholarly Pubs with 8 different contributors
 
@@ -46,7 +46,8 @@ A year in, the different areas of the project are now beginning to converge. We 
 
 ### [38 Blog Posts written by 14 different authors!](https://diffuse.science/posts/)
 
-# Key Pieces of Research Progress
+
+
 ## Making diffuse scattering reproducible
 
 Diffuse scattering was the first experimental data type tackled within the project. In a typical macromolecular X-ray crystallography experiment, [only about half of the X-rays scattered by the sample are analyzed](https://doi.org/10.1016/j.sbi.2018.01.009). Those photons fall in the Bragg peaks, and they encode the average structure of the molecules in the lattice. Surrounding and between those peaks is a weaker signal, known as diffuse scattering, that captures deviations from the average structure. This signal not only provides one of the [few direct measurements of correlated protein motion](https://doi.org/10.1021/acs.biochem.1c00420), which is essential for understanding catalysis, allostery, and ligand recognition.
@@ -83,13 +84,16 @@ We ran [qFit](https://doi.org/10.7554/elife.90606) multiconformer modeling [acro
 This is only the starting point. There is significantly more data and information to be extracted from existing data. By combining sampleworks, qFit, and other machine learning approaches, we are extracting even more heterogeneity latent in structure factors. This is a key piece in getting us the ensemble data needed to accelerate generating the diversity we need to predict ensembles.
 
 ### Solvent Modeling
-Solvent occupies about [50% of a macromolecular crystal](https://doi.org/10.1016/0022-2836(68)90205-2). X-ray scattering arises from every atom in the crystal, so solvent has to be correctly accounted for to model the data collected. Beyond this, water molecules mediate [protein stability, ligand binding, and catalysis](https://doi.org/10.1021/acs.chemrev.5b00664), making them an essential part of understanding the biology of macromolecules. Ordered waters in the first hydration shells are modeled as discrete atoms. However, predicting water molecule positions has lagged far behind protein and ligand structure prediction. Everything beyond them is approximated by a flat, binary mask.
+Solvent occupies about [50% of a macromolecular crystal](https://doi.org/10.1016/0022-2836(68)90205-2). X-ray scattering arises from every atom in the crystal, so solvent has to be correctly accounted for to model the data collected. Beyond this, water molecules mediate [protein stability, ligand binding, and catalysis](https://doi.org/10.1021/acs.chemrev.5b00664), making them essential to understanding macromolecular biology. We model ordered waters in the first hydration shells as discrete atoms. However, predicting water molecule positions has lagged far behind protein and ligand structure prediction. Everything beyond them is approximated by a flat, binary mask.
+
 We have tackled this with two approaches, first predicting ordered water molecules with [WaterFlow](https://www.biorxiv.org/content/10.64898/2026.08.26.747373v1) using a deep learning model. The model sets a new state of the art, especially at sub-angstrom localization, where the gains concentrate, and sub-angstrom accuracy is what binding and catalysis applications require. 
 [WaterFlow is a two-stage model](https://github.com/prism-science/WaterFlow): a flow-matching generator learns a velocity field that transports prior samples to crystallographic water molecule positions, combined with a confidence model that scores each candidate; the user then sets a threshold that controls how many waters are returned. Both stages share a geometric vector perceptron backbone built on ESM3 residue embeddings. The largest single design gain came from crystallographic symmetry mates.
+
 We demonstrated that we can predict bridging water molecules between proteins and ligands, and that our predicted water molecules fit experimental data better, including novel predictions with no deposited counterpart, sitting on positive difference density far more often than displaced decoys.
+
 We also worked on integrating [bulk solvent parameters into refinement software](https://thestacks.org/publications/method-bulksolvent). While bulk solvent is often treated as flat and discrete, this is not what the [data is actually capturing](https://doi.org/10.1107/S1399004715006045). The poor modeling of this solvent is a major contributor to the persistent gap between refinement R values and data quality. Richer descriptions exist, from molecular dynamics, 3D-RISM, and holographic reconstruction; however, getting them into refinement software to test them was a barrier. [We developed a patch to integrate these](https://github.com/jmholton/phenix_user_solvent). 
 
-## Encoding, tooling, and evaluation
+## Encoding Data for AI and Humans
 
 Modeling heterogeneity is useless if the result cannot be communicated to AI and humans. PDBx/mmCIF represents alternate conformations through altlocs, which mark mutually exclusive atomic positions. [It provides no way to state how those states relate](https://doi.org/10.1107/S2052252524005098). Beyond dynamics, this encoding is critical to communicate protein-ligand interactions. Fragment screening and time-resolved experiments generate exactly this structure of heterogeneity, and both are growing ways for us to understand new biology.
 
@@ -108,7 +112,7 @@ We are using PLUG as the baseline for our functional datasets, with our next end
 ## Where are we now?
 Beyond progressing on each of these fronts, we are beginning to integrate the pipeline. Diffuse scattering data is being brought directly into Sampleworks. In parallel, we are determining how best to encode Sampleworks ensemble outputs, and we are using conformational heterogeneity already present in the PDB to train better models to input into Sampleworks. We are also building functional outputs to establish where sequence or static structure provides sufficient functional information and where dynamic data is genuinely required, stress-testing our data collection and modeling.
 
-### Three lessons recurred across the project:
+### Recurring lessons across the project:
 - You can tackle ambitious science projects with the right people
 - New organizational structures are needed to accelerate science
 - Democratizing tools and methods requires returning to the basics
