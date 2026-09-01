@@ -22,7 +22,7 @@ But we are not improving one step in an existing workflow. We are changing an en
 
 Over the past year, we have made significant progress in every area of the project. We demonstrated [reproducibility with diffuse scattering](https://diffuse.science/posts/reproducibility-stack/) across two beamlines (pub coming soon!); collected diffuse data on [8 different proteins](https://diffuse.science/logbook/); and [advanced theory](https://diffuse.science/posts/goodvibes/) to better model this data. We also built [a robust modeling platform](https://github.com/prism-science/sampleworks) that integrate structure predictors with experimental data and used it to stress-test how much [memorization exists in structure predictors](https://thestacks.org/publications/sampleworks-release). We also recovered latent heterogeneity from deposited X-ray crystallography data in over [60k X-ray structures](https://thestacks.org/publications/qfit-at-scale). We have developed [algorithms](https://www.biorxiv.org/content/10.64898/2026.08.26.747373v1) and [methods](https://thestacks.org/publications/method-bulksolvent) for improving our ability to model solvent in X-ray crystallography protein structures, a crux for correctly modeling experimental structural biology data. Finally, we have developed new ways to encode and visualize these [dynamics](https://diffuse.science/posts/mmcif-browser/). We have done all of this work completely openly, engaging with external groups and the greater structural biology community along the way. 
 
-A year in, the different areas of the project are now beginning to converge. We are beginning to integrate diffuse scattering data into our modeling software, and consider how to encode different types of heterogeneity in mmCIF files. As the different areas of the project converge, we are just starting to show the power of tackling the entire pipeline at once: that the sum can be greater than the individual parts. 
+A year in, the different areas of the project are now beginning to converge. We are beginning to integrate diffuse scattering data into our modeling software, and consider how to encode different types of heterogeneity in mmCIF files. As the different areas of the project converge, we are just starting to show the power of tackling the entire pipeline at once: the whole can be greater than the sum of the individual parts. 
 
 
 ## By the Numbers
@@ -117,7 +117,7 @@ Beyond progressing on each of these fronts, we are beginning to integrate the pi
 - New organizational structures are needed to accelerate science
 - Democratizing tools and methods requires returning to the basics
 - Building robust tools that others can readily build upon is essential
--  Working openly enables community engagement
+- Working openly enables community engagement
 
 We are building on these lessons to expand our experiment into new experimental modalities, new biological questions, and new AI-native approaches to solve these problems. 
 
