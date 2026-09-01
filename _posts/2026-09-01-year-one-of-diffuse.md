@@ -25,18 +25,18 @@ Over the past year, we have made significant progress in every area of the proje
 A year in, the different areas of the project are now beginning to converge. We are beginning to integrate diffuse scattering data into our modeling software, and consider how to encode different types of heterogeneity in mmCIF files. As the different areas of the project converge, we are just starting to show the power of tackling the entire pipeline at once: that the sum can be greater than the individual parts. 
 
 
-### By the Numbers
+# By the Numbers
 
-#### 4 Scholarly Pubs with 8 different contributors
+### 4 Scholarly Pubs with 8 different contributors
 
 - [sampleworks: A Modular Platform for Experimentally Guided Biomolecular Ensemble Generation](https://thestacks.org/publications/sampleworks-release)
 - [Supplying a User-Defined Bulk Solvent Map for Refinement](https://thestacks.org/publications/method-bulksolvent)
 - [Recovering Conformational Heterogeneity from the Protein Data Bank at Scale](https://thestacks.org/publications/qfit-at-scale)
 - [WaterFlow: Prediction of Ordered Water Molecule Positions on Protein Structures](https://www.biorxiv.org/content/10.64898/2026.08.26.747373v1)
 
-#### [16 Logbooks](https://diffuse.science/logbook/) with 18 different contributors
+### [16 Logbooks](https://diffuse.science/logbook/) with 18 different contributors
 
-#### 5 Key Software Methods with 13 different contributors
+### 5 Key Software Methods with 13 different contributors
 
 - [Mdx2: an open-source toolkit for diffuse data processing written in Python](https://github.com/prism-science/mdx2)
 - [sampleworks: a Python framework for integrating generative biomolecular structure models with experimental data](https://github.com/prism-science/sampleworks)
@@ -44,7 +44,7 @@ A year in, the different areas of the project are now beginning to converge. We 
 - [Goodvibes (General Optimization Of Diffuse halos from VIBrational Elastic network Simulations): a software package that produces a full forward model of the phononic contribution to the diffuse signal](https://github.com/prism-science/goodvibes)
 - [A Python library and command-line tool for reading, writing, and modifying PDBx/mmCIF protein structure files with support for hierarchical heterogeneity extensions](https://github.com/prism-science/pdbx_hierarchy)
 
-#### [38 Blog Posts written by 14 different authors!](https://diffuse.science/posts/)
+### [38 Blog Posts written by 14 different authors!](https://diffuse.science/posts/)
 
 # Key Pieces of Research Progress
 ## Making diffuse scattering reproducible
@@ -65,7 +65,7 @@ Therefore, in parallel, we are pushing further toward a complete forward model o
 Our first approach is to continue [developing GOODVIBES](https://diffuse.science/posts/goodvibes/) (led by Stephen Thornton), the [software package](https://github.com/prism-science/goodvibes/tree/sjt/enm-playground) that produces a full forward model of the phononic contribution. We are also working on generating accurate total scattering from [crystalline molecular dynamics simulations](https://diffuse.science/posts/taylor-roadmap/) and comparing it to experimental data (led by Taylor Womack and Mike Wall). Both are critical to determining how we model this signal.
 By simultaneously collecting and processing high-quality data today, combined with improving the theory of diffuse scattering, we will improve models of the data and biological motion down the road, similar to what has been done with Bragg peak data and cryo-EM data processing. 
 
-# Machine Learning Modeling of Experimental Data
+## Machine Learning Modeling of Experimental Data
 
 Machine learning structure predictors are now central to structural biology, in part because they can be used as a search mechanism over conformational space. Predicted models now routinely serve as templates for atomic model building and refinement, and [placing predictors in an iterative loop with experimental data accelerates model building while improving prediction quality](https://doi.org/10.1038/s41592-022-01645-6). One path to advance this idea is to exploit modern predictors' ability to sample from their learned conformational distribution. Treated as conformational samplers, predictors can be combined with inference-time guidance, also described as scaling or steering, to improve agreement with experimental data. Such methods have been applied to [single structures](https://doi.org/10.48550/arXiv.2406.04239) and, more recently, to [ensembles](https://doi.org/10.48550/arXiv.2602.24007). However, comparing results across these approaches or building on them was difficult. This limited our ability to iterate fast to improve modeling.
 
@@ -88,7 +88,9 @@ We have tackled this with two approaches, first predicting ordered water molecul
 [WaterFlow is a two-stage model](https://github.com/prism-science/WaterFlow): a flow-matching generator learns a velocity field that transports prior samples to crystallographic water molecule positions, combined with a confidence model that scores each candidate; the user then sets a threshold that controls how many waters are returned. Both stages share a geometric vector perceptron backbone built on ESM3 residue embeddings. The largest single design gain came from crystallographic symmetry mates.
 We demonstrated that we can predict bridging water molecules between proteins and ligands, and that our predicted water molecules fit experimental data better, including novel predictions with no deposited counterpart, sitting on positive difference density far more often than displaced decoys.
 We also worked on integrating [bulk solvent parameters into refinement software](https://thestacks.org/publications/method-bulksolvent). While bulk solvent is often treated as flat and discrete, this is not what the [data is actually capturing](https://doi.org/10.1107/S1399004715006045). The poor modeling of this solvent is a major contributor to the persistent gap between refinement R values and data quality. Richer descriptions exist, from molecular dynamics, 3D-RISM, and holographic reconstruction; however, getting them into refinement software to test them was a barrier. [We developed a patch to integrate these](https://github.com/jmholton/phenix_user_solvent). 
-Encoding, tooling, and evaluation
+
+## Encoding, tooling, and evaluation
+
 Modeling heterogeneity is useless if the result cannot be communicated to AI and humans. PDBx/mmCIF represents alternate conformations through altlocs, which mark mutually exclusive atomic positions. [It provides no way to state how those states relate](https://doi.org/10.1107/S2052252524005098). Beyond dynamics, this encoding is critical to communicate protein-ligand interactions. Fragment screening and time-resolved experiments generate exactly this structure of heterogeneity, and both are growing ways for us to understand new biology.
 
 Over the past year, we have worked in the wwPDB and refinement programs to implement a new mmCIF category encoding [hierarchical relationships between heterogeneity states, paired with a coexistence table specifying which states may co-occur](https://github.com/prism-science/mmcif_encoding). 
