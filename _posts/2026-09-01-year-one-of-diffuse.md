@@ -12,7 +12,7 @@ comments: true
 ---
 ## A Year (plus-ish) of DiffUSE
 
-The DiffUSE Project began in July 2025 as an experiment in democratizing the methods of dynamic structural biology. While static models and sequence data have provided incredible insights into biological function and applications in part due to AI, this data is reaching the limit of the biology it can explain. The most interesting biological problems cannot be addressed with a single structure. Elucidating the dynamics of transient biological events, understanding allostery, and investigating how binding events reshape the conformational landscape to achieve specificity all require the ensemble. But we are data-poor in this area. To reach the scale and diversity of data needed to be able to [leverage, predict, and act upon protein dynamics](https://doi.org/10.1038/s41589-025-01879-3), 
+The DiffUSE Project began in July 2025 as an experiment in democratizing the methods of dynamic structural biology. While static models and sequence data have provided incredible insights into biological function and applications, in part due to AI, this data is reaching the limit of what it can explain. The most interesting biological problems cannot be addressed with a single structure. Elucidating the dynamics of transient biological events, understanding allostery, and investigating how binding events reshape the conformational landscape to achieve specificity all require the ensemble. But we are data-poor in this area. To reach the scale and diversity of data needed to be able to [leverage, predict, and act upon protein dynamics](https://doi.org/10.1038/s41589-025-01879-3), 
 
 Reaching the scale and diversity of data required to understand and ultimately predict protein dynamics demands a re-think of the entire pipeline, from data collection to interpretation, without the constraints of conventional static structure modeling. 
 
@@ -20,23 +20,23 @@ The conventional approach is sequential: collect the data, process it, model it,
 
 But we are not improving one step in an existing workflow. We are changing an entire ecosystem. This work could not be done inside a conventional institutional structure. The bottleneck in dynamic structural biology is the absence of data at scale and the absence of methods that can absorb and collect it. Neither could be solved by an individual group, nor by focusing on individual biological problems. Both are solved by treating methods development as primary scientific work and staffing it accordingly. Our scientific organization, made possible by being a [Radial project](https://radial.org/), makes this possible. Methods developers, platform engineers, and data infrastructure teams work alongside the scientists asking the biological questions. Loose teams form around data collection and processing, modeling, encoding, and interpretation. Each team works within the scope of the problem in front of it, and the outputs of each are usable by the others and by the field. 
 
-Over the past year, we have made significant progress in every area of the project. We demonstrated [reproducibility with diffuse scattering across two beamlines](https://diffuse.science/posts/reproducibility-stack/) (pub coming soon!); [collected data on 8 different proteins](https://diffuse.science/logbook/); and [advanced theory to better model this data](https://diffuse.science/posts/goodvibes/). We also built [a robust modeling platforms that integrate structure predictors with experimental data](https://github.com/prism-science/sampleworks) and used it to [stress-test how much memorization exists in structure predictors](https://thestacks.org/publications/sampleworks-release). We also [recovered latent heterogeneity from deposited X-ray crystallography data in over 60k X-ray structures](https://thestacks.org/publications/qfit-at-scale). We have developed [algorithms](https://www.biorxiv.org/content/10.64898/2026.08.26.747373v1) and [methods](https://thestacks.org/publications/method-bulksolvent) for improving our ability to model solvent in X-ray crystallography protein structures, a crux for correctly modeling experimental structural biology data. Finally, we have developed new ways of [encoding and visualizing these dynamics](https://diffuse.science/posts/mmcif-browser/). We have done all of this work completely openly, engaging with external groups and the greater structural biology community along the way. 
+Over the past year, we have made significant progress in every area of the project. We demonstrated [reproducibility with diffuse scattering](https://diffuse.science/posts/reproducibility-stack/) across two beamlines (pub coming soon!); collected diffuse data on [8 different proteins](https://diffuse.science/logbook/); and [advanced theory](https://diffuse.science/posts/goodvibes/) to better model this data. We also built [a robust modeling platform](https://github.com/prism-science/sampleworks) that integrate structure predictors with experimental data and used it to stress-test how much [memorization exists in structure predictors](https://thestacks.org/publications/sampleworks-release). We also recovered latent heterogeneity from deposited X-ray crystallography data in over [60k X-ray structures](https://thestacks.org/publications/qfit-at-scale). We have developed [algorithms](https://www.biorxiv.org/content/10.64898/2026.08.26.747373v1) and [methods](https://thestacks.org/publications/method-bulksolvent) for improving our ability to model solvent in X-ray crystallography protein structures, a crux for correctly modeling experimental structural biology data. Finally, we have developed new ways to encode and visualize these [dynamics](https://diffuse.science/posts/mmcif-browser/). We have done all of this work completely openly, engaging with external groups and the greater structural biology community along the way. 
 
 A year in, the different areas of the project are now beginning to converge. We are beginning to integrate diffuse scattering data into our modeling software, and consider how to encode different types of heterogeneity in mmCIF files. As the different areas of the project converge, we are just starting to show the power of tackling the entire pipeline at once: that the sum can be greater than the individual parts. 
 
 
-### By the Numbers
+# By the Numbers
 
-#### 4 Scholarly Pubs with 8 different contributors
+### 4 Scholarly Pubs with 8 different contributors
 
 - [sampleworks: A Modular Platform for Experimentally Guided Biomolecular Ensemble Generation](https://thestacks.org/publications/sampleworks-release)
 - [Supplying a User-Defined Bulk Solvent Map for Refinement](https://thestacks.org/publications/method-bulksolvent)
 - [Recovering Conformational Heterogeneity from the Protein Data Bank at Scale](https://thestacks.org/publications/qfit-at-scale)
 - [WaterFlow: Prediction of Ordered Water Molecule Positions on Protein Structures](https://www.biorxiv.org/content/10.64898/2026.08.26.747373v1)
 
-#### [16 Logbooks](https://diffuse.science/logbook/) with 18 different contributors
+### [16 Logbooks](https://diffuse.science/logbook/) with 18 different contributors
 
-#### 5 Key Software Methods with 13 different contributors
+### 5 Key Software Methods with 13 different contributors
 
 - [Mdx2: an open-source toolkit for diffuse data processing written in Python](https://github.com/prism-science/mdx2)
 - [sampleworks: a Python framework for integrating generative biomolecular structure models with experimental data](https://github.com/prism-science/sampleworks)
@@ -44,7 +44,7 @@ A year in, the different areas of the project are now beginning to converge. We 
 - [Goodvibes (General Optimization Of Diffuse halos from VIBrational Elastic network Simulations): a software package that produces a full forward model of the phononic contribution to the diffuse signal](https://github.com/prism-science/goodvibes)
 - [A Python library and command-line tool for reading, writing, and modifying PDBx/mmCIF protein structure files with support for hierarchical heterogeneity extensions](https://github.com/prism-science/pdbx_hierarchy)
 
-#### [38 Blog Posts written by 14 different authors!](https://diffuse.science/posts/)
+### [38 Blog Posts written by 14 different authors!](https://diffuse.science/posts/)
 
 # Key Pieces of Research Progress
 ## Making diffuse scattering reproducible
@@ -65,7 +65,7 @@ Therefore, in parallel, we are pushing further toward a complete forward model o
 Our first approach is to continue [developing GOODVIBES](https://diffuse.science/posts/goodvibes/) (led by Stephen Thornton), the [software package](https://github.com/prism-science/goodvibes/tree/sjt/enm-playground) that produces a full forward model of the phononic contribution. We are also working on generating accurate total scattering from [crystalline molecular dynamics simulations](https://diffuse.science/posts/taylor-roadmap/) and comparing it to experimental data (led by Taylor Womack and Mike Wall). Both are critical to determining how we model this signal.
 By simultaneously collecting and processing high-quality data today, combined with improving the theory of diffuse scattering, we will improve models of the data and biological motion down the road, similar to what has been done with Bragg peak data and cryo-EM data processing. 
 
-# Machine Learning Modeling of Experimental Data
+## Machine Learning Modeling of Experimental Data
 
 Machine learning structure predictors are now central to structural biology, in part because they can be used as a search mechanism over conformational space. Predicted models now routinely serve as templates for atomic model building and refinement, and [placing predictors in an iterative loop with experimental data accelerates model building while improving prediction quality](https://doi.org/10.1038/s41592-022-01645-6). One path to advance this idea is to exploit modern predictors' ability to sample from their learned conformational distribution. Treated as conformational samplers, predictors can be combined with inference-time guidance, also described as scaling or steering, to improve agreement with experimental data. Such methods have been applied to [single structures](https://doi.org/10.48550/arXiv.2406.04239) and, more recently, to [ensembles](https://doi.org/10.48550/arXiv.2602.24007). However, comparing results across these approaches or building on them was difficult. This limited our ability to iterate fast to improve modeling.
 
@@ -88,7 +88,9 @@ We have tackled this with two approaches, first predicting ordered water molecul
 [WaterFlow is a two-stage model](https://github.com/prism-science/WaterFlow): a flow-matching generator learns a velocity field that transports prior samples to crystallographic water molecule positions, combined with a confidence model that scores each candidate; the user then sets a threshold that controls how many waters are returned. Both stages share a geometric vector perceptron backbone built on ESM3 residue embeddings. The largest single design gain came from crystallographic symmetry mates.
 We demonstrated that we can predict bridging water molecules between proteins and ligands, and that our predicted water molecules fit experimental data better, including novel predictions with no deposited counterpart, sitting on positive difference density far more often than displaced decoys.
 We also worked on integrating [bulk solvent parameters into refinement software](https://thestacks.org/publications/method-bulksolvent). While bulk solvent is often treated as flat and discrete, this is not what the [data is actually capturing](https://doi.org/10.1107/S1399004715006045). The poor modeling of this solvent is a major contributor to the persistent gap between refinement R values and data quality. Richer descriptions exist, from molecular dynamics, 3D-RISM, and holographic reconstruction; however, getting them into refinement software to test them was a barrier. [We developed a patch to integrate these](https://github.com/jmholton/phenix_user_solvent). 
-Encoding, tooling, and evaluation
+
+## Encoding, tooling, and evaluation
+
 Modeling heterogeneity is useless if the result cannot be communicated to AI and humans. PDBx/mmCIF represents alternate conformations through altlocs, which mark mutually exclusive atomic positions. [It provides no way to state how those states relate](https://doi.org/10.1107/S2052252524005098). Beyond dynamics, this encoding is critical to communicate protein-ligand interactions. Fragment screening and time-resolved experiments generate exactly this structure of heterogeneity, and both are growing ways for us to understand new biology.
 
 Over the past year, we have worked in the wwPDB and refinement programs to implement a new mmCIF category encoding [hierarchical relationships between heterogeneity states, paired with a coexistence table specifying which states may co-occur](https://github.com/prism-science/mmcif_encoding). 
